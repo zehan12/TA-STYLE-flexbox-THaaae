@@ -6,3 +6,93 @@
 - Using CSS resets is necessary.
 - Use semantic tags and keep the nesting and indentation proper. 
 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF=8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <title>Blog and Gallery</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container flex-header">
+        <a class="brand" href="#">
+            <img src="assets/ojrud4mfodxokquwhugm.png" >
+        </a>
+        <nav class="nav">
+          <i class="far fa-bell"></i>
+            <a href="#">Sarah Jone</a>
+            <i class="fas fa-user-circle id" width="20px"></i>
+        </nav>
+    </div>
+</header>
+
+  <main>
+    <section class="flex ">
+      <aside class="side-bar flex flex-matter">
+        <!-- <div> -->
+          <div>
+
+            <div class=" aside-content">
+              <i class="fas fa-columns"></i>
+              <span>Dashboard</span>
+            </div>
+            <div class="icon aside-content">
+              <i class="far fa-newspaper"></i>
+              <span>Article</span>
+            </div>
+            <div class="aside-content">
+              <i class="fas fa-chart-bar"></i>
+              <span>Analysis</span>
+            </div>
+            <div class="aside-content">
+              <i class="fas fa-inbox"></i>
+              <span>Inbox</span>
+            </div>
+            <div class="aside-content">
+              <i class="fas fa-cog"></i>
+              <span>setting</span>
+              
+              
+            </div>
+          </div>
+          <div class=" bottom">
+            <i class="fas fa-power-off"></i>
+            <span>Log Out</span>
+          </div>
+
+        <!-- </div> -->
+
+      </aside>
+      <article class="main-content content">
+        <div class="image">
+          <img src="assets/01.png">
+        </div>
+        <div class="text">
+          <h1>Why we are doing AltCampus?</h1>
+          <p>AltCampus is an alternative to college that you wish existed. Currently, we are offering an in-house, 6-month long program to train people in quality software development, where they don't have to pay anything until they are hired.</p>
+          <p>We live in the world of digital skills. These skills are always evolving and so is their demand.
+            Students/Professionals who are not responsive to the changes in industry demands, in terms of
+            skills, will have a hard time surviving, well at least flourishing.</p>
+          <button class="button">Read More</button>
+
+        </div>
+
+      </article>
+    </section>
+  </main>
+  <footer class="container-footer">
+    <div>
+      <h3>AltCampus</h3>
+    </div>
+    <nav class="container-nav2">
+     <i class="fab fa-facebook-square"></i>
+     <i class="fab fa-twitter-square"></i>
+    </nav>
+  </footer>
+</body>
